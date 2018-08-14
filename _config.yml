@@ -1,3 +1,4 @@
-title: Voice Conversion Based on Cross-Domain Features Using Variational Auto Encoders
+title: CDVAE: Cross Domain Variational Auto Encoder
 logo: /imgs/cdvae_model.png
 theme: jekyll-theme-minimal
+description: Demo page for paper "Voice Conversion Based on Cross-Domain Features Using Variational Auto Encoders"

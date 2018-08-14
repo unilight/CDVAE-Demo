@@ -22,9 +22,42 @@ Experimental results demonstrate that the proposed CDVAE framework outperforms t
 
 The baseline model is VAE-VC, whose source code can be found [here](https://github.com/JeremyCCHsu/vae-npvc).
 
-| |Source|Target|VAE SP-SP|CDVAE SP-SP|CDVAE MCC-MCC|
-|:--|:--|:--|:--|:--|:--|
-|SF1-TF1|<audio controls="controls" style="width: 200px;" controlsList="nodownload"><source type="audio/wav" src="samples/natural/SF1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/natural/TF1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SF1-TF1-30001-gau-GV.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SF1-TF1-30001-gau-GV-sp2sp.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SF1-TF1-30001-gau-GV-mcc2mcc.wav"></source></audio>|
-|SF1-TM1|<audio controls="controls"><source type="audio/wav" src="samples/natural/SF1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/natural/TM1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SF1-TM1-30001-gau-GV.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SF1-TM1-30001-gau-GV-sp2sp.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SF1-TM1-30001-gau-GV-mcc2mcc.wav"></source></audio>|
-|SM1-TF1|<audio controls="controls"><source type="audio/wav" src="samples/natural/SM1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/natural/TF1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SM1-TF1-30001-gau-GV.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SM1-TF1-30001-gau-GV-sp2sp.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SM1-TF1-30001-gau-GV-mcc2mcc.wav"></source></audio>|
-|SM1-TM1|<audio controls="controls"><source type="audio/wav" src="samples/natural/SM1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/natural/TM1-30001.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SM1-TM1-30001-gau-GV.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SM1-TM1-30001-gau-GV-sp2sp.wav"></source></audio>|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SM1-TM1-30001-gau-GV-mcc2mcc.wav"></source></audio>|
+### SF1-TF1
+
+|Type|Sample|
+|:--|:--|
+|Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/SF1-30001.wav"></source></audio>|
+|Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TF1-30001.wav"></source></audio>|
+|VAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SF1-TF1-30001-gau-GV.wav"></source></audio>|
+|CDVAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SF1-TF1-30001-gau-GV-sp2sp.wav"></source></audio>|
+|CDVAE MCC-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SF1-TF1-30001-gau-GV-mcc2mcc.wav"></source></audio>|
+
+### SF1-TM1
+
+|Type|Sample|
+|:--|:--|
+|Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/SF1-30001.wav"></source></audio>|
+|Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TM1-30001.wav"></source></audio>|
+|VAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SF1-TM1-30001-gau-GV.wav"></source></audio>|
+|CDVAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SF1-TM1-30001-gau-GV-sp2sp.wav"></source></audio>|
+|CDVAE MCC-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SF1-TM1-30001-gau-GV-mcc2mcc.wav"></source></audio>|
+
+### SM1-TF1
+
+|Type|Sample|
+|:--|:--|
+|Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/SM1-30001.wav"></source></audio>|
+|Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TF1-30001.wav"></source></audio>|
+|VAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SM1-TF1-30001-gau-GV.wav"></source></audio>|
+|CDVAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SM1-TF1-30001-gau-GV-sp2sp.wav"></source></audio>|
+|CDVAE MCC-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SM1-TF1-30001-gau-GV-mcc2mcc.wav"></source></audio>|
+
+### SM1-TM1
+
+|Type|Sample|
+|:--|:--|
+|Source|<audio controls="controls"><source type="audio/wav" src="samples/natural/SM1-30001.wav"></source></audio>|
+|Target|<audio controls="controls"><source type="audio/wav" src="samples/natural/TM1-30001.wav"></source></audio>|
+|VAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/vae-sp2sp/SM1-TM1-30001-gau-GV.wav"></source></audio>|
+|CDVAE SP-SP|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-sp2sp/SM1-TM1-30001-gau-GV-sp2sp.wav"></source></audio>|
+|CDVAE MCC-MCC|<audio controls="controls"><source type="audio/wav" src="samples/cdvae-mcc2mcc/SM1-TM1-30001-gau-GV-mcc2mcc.wav"></source></audio>|

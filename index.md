@@ -14,9 +14,13 @@ We evaluated our proposed framework on the **Voice Conversion Challenge 2018 (VC
 
 Experimental results demonstrate that the proposed CDVAE framework outperforms the conventional VAE framework in terms of subjective tests.
 
-|MOS on naturalness|Preference on Similarity|
-|:-------------|:------------------|
-| ![Naturalness](/imgs/Subjective_Naturalness.png) | ![Similarity 1](/imgs/Subjective_Similarity1.png) ![Similarity 1](/imgs/Subjective_Similarity2.png)| 
+### MOS on naturalness
+
+![Naturalness](/imgs/Subjective_Naturalness.png) 
+
+### Preference on Similarity
+![Similarity 1](/imgs/Subjective_Similarity1.png)
+![Similarity 1](/imgs/Subjective_Similarity2.png)
 
 ## Speech Samples
 
